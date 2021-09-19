@@ -1,0 +1,401 @@
+.mynavbar{
+    margin: 0;
+    padding: 0;
+     background-color: white;
+    list-style-type: none;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-width: 3px;
+    border-color: black;
+    
+    /*border: 5px solid black;*/
+    
+    
+    
+}
+.mynavbar li{
+    display: inline-block;
+    padding: 15px 10px;
+    width: 21%;
+    /*height: 30px*/
+}
+.navli:hover{
+    background-color: #15171a;
+    transition-duration: .5s ;
+    
+}
+body{
+    
+    margin: 0;
+    padding: 0;
+   
+}
+#search{
+   
+    width: 250px;
+    height: 35px;
+    font-size: .85em;
+    font-weight: bold;
+    color: black;
+    border: 3px solid black;
+    border-radius: 50px;
+    width:465px;
+    /*padding-top: 4px ;*/
+    padding-left: 30px;
+    opacity: .9;
+    background: white url("Images/icon-search.svg") no-repeat 9px 8px ;
+    outline: none;
+}
+#searchbtn{
+    height: 25px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-family: 'Amita';
+    background-color:#15171a ;
+    opacity: .9;
+}
+#searchbtn:hover{
+    background-color: black;
+}
+#ask{
+   
+    width: 250px;
+    height: 35px;
+    font-size: .85em;
+    font-weight: bold;
+    color: black;
+    border: 3px solid black;
+    border-radius: 50px;
+    width:465px;
+    /*padding-top: 4px ;*/
+    padding-left: 30px;
+    opacity: .9;
+    background: white url("Images/icon-search.svg") no-repeat 9px 8px ;
+    outline: none;
+}
+#askbtn{
+    height: 25px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-family: 'Amita';
+    background-color:#15171a ;
+    opacity: .9;
+}
+#askbtn:hover{
+    background-color: black;
+}
+.navli{
+    text-align: center;
+}
+.title{
+    text-decoration: none;
+    font-family: 'Sigmar One';
+    font-size: 20px;
+    
+    color: black;
+}
+.title:hover{
+    color: black;
+}
+.title2{
+    text-decoration: none;
+    font-family: 'Sigmar One';
+    font-size: 20px;
+    
+    color: black;
+}
+.title2:hover{
+    color: white;
+}
+.headertext{
+    color:black;
+    font-family: 'Sigmar One';
+    
+}
+.headertext:hover{
+    color: black;
+}
+.rglog:link{
+    color: blue;
+}
+.rglog:visited{
+    color: blue;
+}
+.rglog:hover{
+    color: red;
+}
+.rglog:active{
+    color: red;
+}
+.data{
+    width: 250px;
+    height: 35px;
+    font-size: .85em;
+    font-weight: bold;
+    color: black;
+    border: 3px solid black;
+    border-radius: 50px;
+    width:465px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left: 41px;
+}
+.submit{
+    height: 25px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+   
+    width: 10%;
+    background-color:#15171a ;
+    opacity: .9;
+}
+.exdata{
+    margin-left: 82px;
+}
+.exxdata{
+    margin-left: 9px;
+}
+#regdiv{
+    margin-top: 50px;
+    margin-left:400px ;
+}
+.regsub{
+    margin-top: 15px;
+    margin-left: 323px;
+}
+.logdata{
+    margin-left: 4px;
+}
+#logdiv{
+    margin-left: 400px;
+    margin-top: 200px;
+}
+.logsub{
+    margin-top: 15px;
+    margin-left: 300px;
+}
+.log{
+    margin-left: 350px;
+}
+.reg{
+    margin-left: 320px;
+}
+footer{
+    clear: left;
+    color: white;
+    font-family: 'Amita';
+    background-color: black;
+    
+}
+/*.icons{
+    margin-left: 900px;
+}*/
+.fbicon:link{
+    color: darkblue;
+    text-decoration: none;
+}
+.fbicon:visited{
+    color: darkblue;
+}
+.fbicon:hover{
+    color: blue;
+}
+.fbicon:active{
+    color: white;
+}
+.yticon:link{
+    color: darkred;
+    text-decoration: none;
+}
+.yticon:visited{
+    color: darkred;
+}
+.yticon:hover{
+    color: red;
+}
+.yticon:active{
+    color: red;
+}
+.loginfooter{
+    margin-top: 500px;
+}
+.gallery{
+    border: 1px gainsboro solid;
+    float: left;
+    margin: 20px 30px;
+    /*background-color: white;*/
+    box-shadow: rgba(10, 10, 10, 0.411) 7px 5px;
+    width: 450px;
+    
+}
+.gallery3{
+    border: 1px gainsboro solid;
+    float: left;
+    /*margin: 20px 30px;*/
+    /*background-color: white;*/
+    /*box-shadow: rgba(10, 10, 10, 0.411) 7px 5px;*/
+    width: 60%;
+    font-weight: bolder;
+}
+.gallery4{
+    border: none;
+    float: left;
+    font-family: 'Amita';
+    /*background-color: white;*/
+    font-size: 20px;
+    width: 80%;
+    
+}
+.description{
+    float: left;
+    width: 30%;
+    border: 1px gainsboro solid;
+    margin-left: 10%;
+}
+.gallery2{
+    border: 1px gainsboro solid;
+    float: left;
+    margin: 20px 30px;
+    /*background-color: white;*/
+    box-shadow: rgba(10, 10, 10, 0.411) 7px 5px;
+    width: 250px;
+    
+    
+}
+.exgall{
+    width: 300px;
+}
+.gallery:hover{
+    width: 38%;
+}
+.desc{
+    text-align: center;
+    
+
+}
+.supportP{
+    font-family: Amita;
+    font-size: 63px;
+    color: black;
+}
+
+.supportname{
+    
+    float: left;
+    width: 300px;
+    height: 303px;
+    margin: 50px 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Oswald';
+}
+
+.supplinks{
+    text-decoration: none;
+    color: black;
+    font-family:Amita;
+    font-size: medium;
+}
+.supplinks:visited{
+    color: black;
+}
+.supplinks:hover{
+    color: red;
+}
+.supplinks:active{
+    color: white;
+}
+.gallery a{
+    text-decoration: none;
+}
+
+
+.footlist{
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.footer2{
+    text-align: center;
+    margin:0;
+    padding:0;
+    
+    
+}
+.footlistdiv{
+    text-align: left;
+    
+    margin-top: 10px;
+    
+    
+}
+.logo{
+    font-size: 50px;
+}
+input[type=text],input[type=email],input[type=password],input[type=date],input[type=number]{
+    outline-style: none;
+}
+input[type=text]:hover{
+    border-color: red;
+}
+input[type=email]:hover{
+    border-color: red;
+}
+input[type=password]:hover{
+    border-color: red;
+}
+input[type=date]:hover{
+    border-color: red;
+}
+input[type=number]:hover{
+    border-color: red;
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    
+}
+input[type=radio]:hover{
+    cursor: pointer;
+}
+.buttonlink{
+    text-decoration: none;
+
+}
+.buttonlink:link{
+    color: white;
+}
+.buttonlink:visited{
+    color: white;
+}
+.buttonlink:hover{
+    color: white;
+}
+.buttonlink:active{
+    color: white;
+}
+.footlistdivparent{
+    font-weight: bolder;
+    color: white;
+    /*margin-left: 500px;*/
+    width: 150px;
+    float: left;
+    
+}
+.about{
+  font-weight: bolder;
+  display: inline-block;
+    width: 250px;
+    margin-left: 450px;
+    
+}

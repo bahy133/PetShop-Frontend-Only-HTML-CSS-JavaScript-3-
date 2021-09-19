@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="dogs, pets, animals">
+        <meta name="description" content="Pets Shop">
+        <meta name="author" content="Bahy Mohamed">
+        <meta http-equiv="refresh" content="30">
+        <title>Home Page</title>
+        <link rel="stylesheet" href="Style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sigmar One">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amita ">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/brands.min.css" integrity="sha512-sVSECYdnRMezwuq5uAjKQJEcu2wybeAPjU4VJQ9pCRcCY4pIpIw4YMHIOQ0CypfwHRvdSPbH++dA3O4Hihm/LQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <!--Fonts Library -->
+         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+         <!--Bootstrap Library-->
+ 
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+ 
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+         <script type="text/javascript" src="JavaScript.js"></script>
+    </head>
+    <body>
+
+        <div class="header container-fluid">
+            <h1><a class="title headertext logo"href="Home.html">Pets Sh<i class="fas fa-paw"></i>p</a></h1>
+        </div>
+        <ul class="mynavbar container-fluid">
+            <!--<li class="Labandsear"></li>-->
+            <li class="navli" style="background-color: #15171a; "><a style="color: white;" class="title2"href="Home.html" >Home</a></li>
+            <li class="navli"><a class="title2" href="Dogs.html" >Dogs</a></li>
+            <li class="navli"><a class="title2" href="Cats.html" >Cats</a></li>
+            <li class="navli"><a class="title2" href="ContactUs.html">Support</a></li>
+           
+        
+        </ul>
+    
+        
+        <section>
+            <div dir="rtl" class="container-fluid">
+                <table>
+                <tr>
+                    <th><a class="rglog" href="Registeration.html">Register</a></th>
+                    <th><a class="rglog" href="Login.html">Login</a></th>
+                    
+                </tr>
+            </table>
+            </div>
+            <div class="searchdiv container">
+               
+                             
+                <input type="search" id="search" name="search">
+                <button onclick="Search();" id="searchbtn">Search</button>
+                
+            </div>
+
+            <div class="container" id="Content">
+                <div class="gallery2">
+                    <a style="cursor: pointer;" onclick="DogFood('Images/dog1-removebg-preview.png','150 EGP</strike><br>127.50');"><img src="Images/dog1-removebg-preview.png"width="100%"></a>
+                    <div class="desc">
+                        <a class="title" style="cursor: pointer;" onclick="DogFood('Images/dog1-removebg-preview.png','150 EGP</strike><br>127.50');">MERADOG Pure Sensitive Snacks 600g</a>
+                        <p style="color: green; font-weight: bolder;"><strike style="color: red; font-weight: bolder;">150 EGP</strike>    127.50 EGP</p>
+                    </div>
+                </div>
+                <div class="gallery2">
+                    <a style="cursor: pointer;" onclick="DogFood2('Images/homedog2.png',1075);"><img src="Images/homedog2.png" width="100%"></a>
+                    <div class="desc">
+                        <a class="title" style="cursor: pointer;" onclick="DogFood2('Images/homedog2.png',1075);">Bewi Dog Sports Dry Food With Goody Snacks 25Kg</a>
+                        <p style="color: green; font-weight: bolder;">1075 EGP</p>
+                    </div>
+                </div>
+                <div class="gallery2 ">
+                    <a style="cursor: pointer;" onclick="Home1();"><img src="Images/homedog3.jpg" width="100%"></a>
+                    <div class="desc">
+                        <a class="title" style="cursor: pointer;" onclick="Home1();">Frontline Fleas & Ticks Spray for dogs and cats 250ml</a>
+                        <p style="color: green; font-weight: bolder;">925 EGP</p>
+                    </div>
+                </div>
+                <div class="gallery2">
+                    <a style="cursor: pointer;" onclick="DogFood2('Images/homedog4.png',1555);"><img src="Images/homedog4.png" width="100%"></a>
+                    <div class="desc">
+                        <a class="title" style="cursor: pointer;" onclick="DogFood2('Images/homedog4.png',1555);">Royal Canin Maxi Adult 15 kg</a>
+                        <p style="color: green; font-weight: bolder;">1555 EGP</p>
+                    </div>
+                </div>
+               
+                <div class="gallery2">
+                    <a style="cursor: pointer;" onclick="DogFood('Images/homedog6.png','500 EGP</strike><br>350');"><img src="Images/homedog6.png" width="100%"></a>
+                    <div class="desc">
+                    <a style="cursor: pointer;" onclick="DogFood('Images/homedog6.png','500 EGP</strike><br>350');" class="title">MERA essential Junior 2 Puppy Food 4Kg + One Knabber Riese 90g Free</a>
+                    <p style="color: green; font-weight: bolder;"><strike style="color: red; font-weight: bolder;">500 EGP</strike> 350 EGP</p>
+                    </div>
+                </div>
+                <div class="gallery2">
+                    <a style="cursor: pointer;" onclick="CatDryFood('Images/homecat2.png',260);"><img src="Images/homecat2.png" width="100%"></a>
+                    <div class="desc">
+                    <a style="cursor: pointer;" onclick="CatDryFood('Images/homecat2.png',260);" class="title">Leonardo Adult Complete 32/16 2Kg</a>
+                    <p style="color: green; font-weight: bolder;">260 EGP</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </section>
+        <footer>
+            <div class="about">
+                About PETSHOP
+                <div class="footlistdiv">
+                <p>
+                    Pet Shop stocks a wide range of pet products for both cats and dogs. Whether you’re in need of food, toys, medication, grooming supplies, beds, carriers or a host of other supplies, you’re sure to find it online from Egypt’s first and largest online store for pet owners. 
+                </p>
+            </div>
+            </div>
+            <div class="footlistdivparent">
+                ContactUS
+            
+            <div class="footlistdiv">
+                <ul class="footlist">
+                    <li><i class="fas fa-phone-square-alt"></i>(+20)1100467054</li>
+                    <li ><a class="fbicon" href="https://www.facebook.com/petsegyptshop/" target="_blanc"><i class="fab fa-facebook"></i>/PetsShop</a></li>
+                    <li><a class="yticon" href="https://www.youtube.com/user/petshopegyptvideo" target="_blanc"><i class="fab fa-youtube"></i>/PetsShop</a></li>
+                </ul>
+            </div>
+        </div>
+           
+        </footer>
+    </body>
+</html>
